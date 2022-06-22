@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convertor</title>
+</head>
+<body>
+    <input oninput="poundsConvertor(this.value)"onchange="weightConvertor(this.value)"type="number">
+    <p>From Pounds To Kilograms:<span id="output"></span></p>
+    <input oninput="milesConvertor(this.value)"onchange="milesConvertor(this.value)"type="number">
+    <p>From Miles To Kilometers:<span id="output2"></span></p>
+    <input oninput="celsiusConvertor(this.value)"onchange="degreesConvertor(this.value)"type="number">
+    <p>From Degrees Celsius To Degrees Fahrenheit:<span id="output3"></span></p>
+    <input oninput="kilogramConvertor(this.value)"onchange="kilogramConvertor(this.value)"type="number">
+    <p>From Kilograms To Pounds:<span id="output4"></span></p>
+    <input oninput="kilometerConvertor(this.value)"onchange="kilometerConvertor(this.value)"type="number">
+    <p>From Kilometers To Miles:<span id="output5"></span></p>
+    <input oninput="farConvertor(this.value)"onchange="farConvertor(this.value)"type="number">
+    <p>From Degrees Fahrenheit To Degrees Celsius:<span id="output6"></span></p>
+    <script src="convert.js"></script>
+</body>
+</html>
